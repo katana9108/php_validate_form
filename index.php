@@ -23,6 +23,7 @@ class User implements Info
                         $phone = htmlspecialchars($_POST['phone']),
                         $message = htmlspecialchars($_POST['message'])
                     ];
+                    var_dump(($data));
                     // header("Location: http://phpform.test/");
                 }else{
                     echo "quelque chose s'est mal passée!";
